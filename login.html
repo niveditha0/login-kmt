@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>loginpagekennametal</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="main-content">
+      <div main-content-innerwrap>
+        <div class="subnav-row">
+          <div subnav-login-components>
+            <div class="breadcrumb-section">
+              <ol class="breadcrumb">
+                <li>
+                  <a href="https://www.kennametal.com/us/en/home.html">Home</a>
+                </li>
+                <li class="active">Sign in / Register</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="loginsection">
+          <div class="loginuser-section">
+            <div class="login-heading-section">
+              <div class="loginheading-title">
+                <h3>Login</h3>
+              </div>
+            </div>
+            <div class="form-section">
+              <div>
+                <form action="">
+                  <div class="username-container">
+                    <div class="username">
+                      <label class="control-label" for="j_username">Username *</label>
+                      <input
+                        id="j_username"
+                        name="j_username"
+                        class="kmt-input form-control js-login-username form-control"
+                        placeholder="Username"
+                        required="required"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div class="password-container">
+                    <div class="password">
+                      <label class="control-label" for="j_password"
+                        >Password *</label
+                      >
+                      <input
+                        id="j_password"
+                        name="j_password"
+                        class="kmt-input form-control js-login-pwd"
+                        placeholder="Password"
+                        type="password"
+                        value=""
+                        autocomplete="off"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    id="submitLogin"
+                    type="button"
+                    class="btn-kmt-primary btn-block"
+                  >
+                    Log In
+                  </button>
+                  <div class="login-actions">
+                    <div class="register-newuser">
+                      <a
+                        href="/store/us/en/kmt/register.html"
+                        class="register-link"
+                        >Don't have an account yet?</a
+                      >
+                    </div>
+
+                    <div class="forgotten-password">
+                      <a
+                        href="#"
+                        data-link="/store/us/en/kmt/login/pw/request"
+                        class="js-password-forgotten"data-cbox-title="Reset Password">Forgot your password?</a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+                <div class="kennametalempid-login">
+                    <div class="kmt-login-page__or-text">
+                        <hr><span>OR</span><hr>
+                    </div>
+                    <div class="kmt-login-page__headline-text">Kennametal Employees, login here</div>
+                    <div class="btn-container">
+                        <button id="socialLogin" type="button" class="btn-kmt-secondary btn-block">Log in with Kennametal ID</button>
+                    </div>
+                </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
