@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>loginpagekennametal</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="main-content">
+      <div class="breadcrumb-section">
+        <ol class="breadcrumb">
+          <li>
+            <a href="https://www.kennametal.com/us/en/home.html">Home</a>
+          </li>
+          <li class="action">/Sign in/</li>
+          <li>Register</li>
+        </ol>
+      </div>
+      <div class="loginsection">
+        <h3 class="loginheadline">Login</h3>
+        <form action="">
+          <div class="username-container">
+            <label class="control-label" for="j_username">Username *</label
+            ><br />
+            <input
+              id="j_username"
+              name="j_username"
+              class="kmt-loginuser-password-input"
+              placeholder="Username"
+              required="required"
+              value=""
+            />
+          </div>
+          <div class="password-container">
+            <label class="control-label" for="j_password">Password *</label
+            ><br />
+            <input
+              id="j_password"
+              name="j_password"
+              class="kmt-loginuser-password-input"
+              placeholder="Password"
+              type="password"
+              value=""
+              autocomplete="off"
+            />
+          </div>
+          <div class="loginuser-btnprimary-yellow">
+            <button
+              id="submitLogin"
+              type="button"
+              class="btn-kmt-primary-yellow"
+            >
+              Log In
+            </button>
+          </div>
+          <div class="login-actions">
+            <p class="register-newuser">
+              <a href="/store/us/en/kmt/register.html" class="register-link"
+                >Don't have an account yet?</a
+              >
+            </p>
+
+            <p class="forgotten-password">
+              <a
+                href="#"
+                data-link="/store/us/en/kmt/login/pw/request"
+                class="js-password-forgotten"
+                data-cbox-title="Reset Password"
+                >Forgot your password?</a
+              >
+            </p>
+          </div>
+        </form>
+        <div class="kmt-login-page__or-text">
+          <hr />
+          <span>OR</span>
+        </div>
+        <div class="kennametalempid-login">
+          <p>Kennametal Employees, login here</p>
+          <div class="btn-container">
+            <button
+              id="socialLogin"
+              type="button"
+              class="btn-kmt-secondary btn-block"
+            >
+              Log in with Kennametal ID
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
