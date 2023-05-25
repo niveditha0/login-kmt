@@ -9,12 +9,11 @@
 }
 
 .loginheadline {
-  max-width: 1260px;
-  width: 300px;
   border-bottom: 1px solid grey;
   font-weight: bold;
   padding: 15px;
   margin-left: 15px;
+  max-width: 600px;
 }
 .kmt-loginuser-password-input {
   margin-top: 10px;
@@ -33,7 +32,6 @@
   background-color: rgb(247, 210, 4);
   border: 3px solid transparent;
   border-radius: 7px;
-  text-align: center;
   min-width: 300px;
   margin: 0px auto;
 }
@@ -44,20 +42,18 @@
   font-weight: 300;
   text-align: center;
 }
+.btn-kmt-secondary {
+  padding: 8px 55px;
+  background-color: white;
+  border: 3px solid #336699;
+  border-radius: 7px;
+}
 .loginsection {
-  min-width: 300px;
-  max-width: 400px;
+  max-width: 100%;
+  width: 30%;
+  margin: 10px auto;
 }
 .kmt-login-page__or-text,
 .kennametalempid-login {
   text-align: center;
-}
-.btn-kmt-secondary {
-  padding: 8px;
-  background-color: white;
-  border: 3px solid #336699;
-  border-radius: 7px;
-  text-align: center;
-  min-width: 300px;
-  margin: 0px auto;
 }
